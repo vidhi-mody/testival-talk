@@ -22,14 +22,14 @@ const FrameworkComparisionSlidesFragment = () => {
     <>
       <Slide>
         <FlexBox height="100%">
-          <Heading>WebdriverIO vs Puppeteer vs Cypress</Heading>
+          <Heading>WebdriverIO vs Puppeteer</Heading>
         </FlexBox>
       </Slide>
       <Slide>
         <FlexBox height="100%">
           <Heading fontSize="h2">What's trending?</Heading>
           <Iframe
-            url="https://www.npmtrends.com/cypress-vs-puppeteer-vs-webdriverio-vs-playwright-vs-nightwatch"
+            url="https://www.npmtrends.com/cypress-vs-puppeteer-vs-webdriverio"
             width="75%"
             height="75%"
           />

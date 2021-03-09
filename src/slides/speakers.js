@@ -1,6 +1,6 @@
 import { Box, FlexBox, Grid, Heading, Image, Slide, Text } from "spectacle";
 
-const Speaker = ({ avatar, name, bio, github, twitter }) => {
+const Speaker = ({ avatar, name, bio, github, twitter, linkedin }) => {
   return (
     <Box>
       <Heading fontSize="h2">{name}</Heading>
@@ -22,7 +22,7 @@ const Speaker = ({ avatar, name, bio, github, twitter }) => {
           />
         </a>
         <a
-          href={`https://github.com/${github}`}
+          href={`https://twitter.com/${twitter}`}
           target="_blank"
           rel="noreferrer"
           style={{
@@ -31,6 +31,18 @@ const Speaker = ({ avatar, name, bio, github, twitter }) => {
         >
           <Image
             src={`https://img.shields.io/twitter/follow/${twitter}?style=social`}
+          />
+        </a>
+        <a
+          href={`https://linkedin.com/in/${linkedin}`}
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            margin: "5px",
+          }}
+        >
+          <Image
+            src={`https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social`}     
           />
         </a>
       </Text>
@@ -48,6 +60,7 @@ const SpeakerSlidesFragment = () => (
         mail="vidhimody6@gmail.com"
         github="vidhi-mody"
         twitter="vidhi_mody"
+        linkedin="vidhi-m"
       />
       <Speaker
         name="Soham Parekh"
@@ -56,6 +69,7 @@ const SpeakerSlidesFragment = () => (
         github="und3fined-v01d"
         avatar="https://media-exp1.licdn.com/dms/image/C5103AQHVt45EgXfiRw/profile-displayphoto-shrink_800_800/0/1582886660877?e=1620864000&v=beta&t=unEr-MET_AbrBLhVQG2dEsWDvPtvqqjvHWVECNvY1kI"
         twitter="und3fined_v01d"
+        linkedin="soham-parekh"
       />
     </Grid>
   </Slide>
