@@ -9,7 +9,6 @@ import {
   UnorderedList,
 } from "spectacle";
 import UpgradeWDIOChart from "../charts/upgrade-wdio";
-import { PieChart } from 'react-minimal-pie-chart';
 
 const WDIOAtWMFSlidesFragment = () => {
   return (
