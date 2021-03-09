@@ -60,13 +60,6 @@ const WDIOAtWMFSlidesFragment = () => {
           <Box>
             <Heading fontSize="h2">The Reds 🔴</Heading>
           </Box>
-          <PieChart
-            data={[
-              { title: 'v6', value: 24, color: '#00FF00' },
-              { title: 'v5', value: 4, color: '#FFFF00' },
-              { title: 'v4', value: 2, color: '	#FF0000' },
-            ]}
-          />
         </FlexBox>
       </Slide>
     </>
